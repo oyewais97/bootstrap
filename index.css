@@ -1,0 +1,78 @@
+.card-body :hover{
+    background-color: darkcyan;
+}
+
+.jumbo-card{
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 500px;
+}
+.card-text{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+.searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 300px;
+  caret-color:red;
+  transition: width 0.4s linear;
+  }
+
+  
+.bg-dark{
+    background-color: transparent;
+
+}
+.bg-dark.scrolled{
+    background-color: brown;
+}
+td, .card-body {
+    transition: transform 1s ease;
+  }
+  
+  td, .card-body :hover {
+    transform: scale(1.1);
+    transition-duration: 4s;
+    
+  }
+  
+  
+  .bold-text {
+    font-weight: bold;
+    color: #f1f527;
+  }
+  
+  .semibold-text {
+    font-weight: 400;
+    color: #6A6F81;
+  }
+  
+  .bg-txt {
+    font-size: 1.1rem;
+  }
+  
+  .md-txt {
+    font-size: 0.9rem;
+  }
+  
+  .sm-txt {
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+  }
+  
+  .line {
+    color: #969696;
+    opacity: 0.4;
+  }
+  
